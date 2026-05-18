@@ -11,7 +11,6 @@
 <body>
 
 <div class="navbar">
-          <a href="index.html">Home</a>
           <a href="Labs/Lab-1/Part-1/">Lab 1 Part 1</a>
 
 </div>
