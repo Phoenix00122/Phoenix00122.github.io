@@ -2,6 +2,6 @@
 
 ## Labs
 
-- [Lab 1 Part 1](labs/lab-1/part-1/)
-- [Lab 1 Part 2](labs/lab-1/part-2/)
-- [Lab 2](labs/lab-2/)
+- [Lab 1 Part 1](Labs/Lab-1/Part-1/)
+- [Lab 1 Part 2](Labs/Lab-1/Part-2/)
+- [Lab 2](Labs/Lab-2/)
