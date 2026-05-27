@@ -1,3 +1,10 @@
+/*
+Name: Jay Lauzon
+File: style.css
+Date: 22 May 2026
+Description: CSS styling for layout, navigation, typography, and responsive gallery for Part 2.
+*/
+
 /* || General setup */
 
 body {
@@ -6,14 +13,14 @@ body {
 
 html {
   font-size: 10px;
-  background-color: darkgrey;
+  background-color: rgb(18, 193, 233);
 }
 
 body {
   width: 70%;
   min-width: 800px;
   margin: 0 auto;
-  background-color: white; /* Added to give the content panel a clean, readable background */
+  background-color: rgb(23, 169, 183); /* Added to give the content panel a clean, readable background */
   box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Optional: adds nice depth against the darkgrey HTML background */
 }
 
@@ -22,13 +29,14 @@ body {
 h1,
 h2 {
   font-family: "Cinzel Decorative", cursive;
-  color: #2a2a2a;
+  color: #131212;
 }
 
 p,
 li {
   font-family: "Roboto Condensed", sans-serif;
-  color: #2a2a2a;
+  color: #151414;
+  font-weight: bold; /* FIX: Makes the main body and list text thicker and bolder */
 }
 
 h1 {
@@ -84,7 +92,7 @@ nav ul {
   display: flex;
   border-top: 2px solid #2a2a2a;
   border-bottom: 2px solid #2a2a2a;
-  background-color: #f4f4f4;
+  background-color: #14c5ce;
 }
 
 nav li {
@@ -104,7 +112,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  color: white;
+  color: rgb(12, 171, 192);
   background-color: #2a2a2a; /* Gives a nice sleek tab-hover effect */
 }
 
@@ -163,5 +171,5 @@ footer {
 }
 
 footer p {
-  color: #666;
+  color: #151212;
 }
