@@ -6,6 +6,7 @@ body {
   width: 90%;
   min-width: 800px;
   max-width: 1200px;
+  background-color: rgb(54, 230, 240);
 }
 
 h1 {
@@ -17,6 +18,10 @@ h1 {
 }
 
 /* nav menu */
+
+nav {
+  background-color: rgb(24, 75, 122);
+}
 
 ul {
   padding: 0;
@@ -32,9 +37,35 @@ li {
   flex: auto;
 }
 
+nav li:nth-child(1) {
+  background-color: rgb(227, 74, 51);
+}
+
+nav li:nth-child(2) {
+  background-color: rgb(241, 145, 40);
+}
+
+nav li:nth-child(3) {
+  background-color: rgb(251, 194, 38);
+}
+
+nav li:nth-child(4) {
+  background-color: rgb(44, 176, 108);
+}
+
+nav li:nth-child(5) {
+  background-color: rgb(46, 134, 193);
+}
+
+nav li:nth-child(6) {
+  background-color: rgb(111, 81, 162);
+}
+
 nav a {
   font-size: 1.2em;
-  padding: 0 20px;
+  padding: 10px 20px;
+  color: white;
+  display: block;
 }
 
 /* General link styles */
