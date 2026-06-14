@@ -1,3 +1,17 @@
+/* Solution: Apply fonts to the page */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Roboto+Slab:wght@700;900&display=swap');
+
+html {
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
 /* General setup */
 
 * {
@@ -32,4 +46,27 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Solution: General text styling */
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-align: center; 
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0; 
+  letter-spacing: 1px;
+}
+
+section h2 + p {
+  text-indent: 2rem;
+}
+
+p, li {
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }

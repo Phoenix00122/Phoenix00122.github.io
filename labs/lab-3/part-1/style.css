@@ -23,3 +23,21 @@ h2 {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+ul {
+
+  background-color: white;
+  border: 5px solid purple;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+a {
+  color: green;
+}
+
+a:hover,
+a:focus {
+  color: rgb(3, 47, 3);
+  text-decoration: none;
+}
