@@ -6,7 +6,7 @@ body {
   font: 1.2em / 1.5 Calibri, sans-serif;
   padding: 20px;
   width: 500px;
-  background-color: #cbc6c6;
+  background-color: #92b7c6;
   margin: 0 auto;
 
 }
@@ -22,6 +22,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   font-style: italic;
+  font-weight: 2px;
 }
 
 ul {
