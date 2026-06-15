@@ -57,12 +57,14 @@ h1 {
   font-size: 3rem;
   letter-spacing: 3px;
   text-align: center; 
+  color: #491717;
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 0; 
   letter-spacing: 1px;
+  color: #081a04;
 }
 
 section h2 + p {
