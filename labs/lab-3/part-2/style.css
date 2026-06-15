@@ -74,4 +74,5 @@ section h2 + p {
 p, li {
   line-height: 1.6;
   letter-spacing: 0.5px;
+  font-weight: bold;
 }
