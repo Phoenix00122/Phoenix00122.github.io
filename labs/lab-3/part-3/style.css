@@ -65,3 +65,15 @@ nav a {
   float: left;
   margin: 10px 25px 15px 0;
 }
+
+html {
+  /* Syntax: scrollbar-color: [Thumb Color] [Track/Background Color]; */
+  scrollbar-color: #aa6666 #273f4f;
+  
+  /* Optional: Makes the scrollbar a bit sleeker */
+  scrollbar-width: thick; 
+}
+
+h1 {
+  color: rgb(19, 36, 51);
+}

@@ -1,9 +1,9 @@
 html {
-  background-color: white;
+  background-color: rgb(98, 83, 143);
 }
 
 body {
-  font: 1.2em / 1.5 system-ui;
+  font: 1.2em / 1.5 Calibri, sans-serif;
   padding: 20px;
   width: 500px;
   background-color: #cbc6c6;
@@ -13,8 +13,8 @@ body {
 
 
 h1 {
-  color: darkslategrey;
-  border-bottom: 10px dotted purple;
+  color: rgb(111, 33, 133);
+  border-bottom: 10px dotted rgb(26, 111, 191);
   font-size: 2rem;
 
 }
@@ -27,7 +27,7 @@ h2 {
 ul {
 
   background-color: white;
-  border: 5px solid purple;
+  border: 5px solid rgb(28, 72, 203);
   padding: 30px;
   border-radius: 20px;
 }
