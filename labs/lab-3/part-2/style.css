@@ -4,6 +4,8 @@
 
 html {
   font-family: 'Merriweather', Georgia, serif;
+  scrollbar-color: #726f1b #532f08;
+  scrollbar-width: thick; 
 }
 
 h1,
@@ -23,6 +25,7 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  background-color: #4d848f;
 }
 
 /* Layout */
@@ -37,11 +40,11 @@ main {
 /* header and footer */
 
 header {
-  border-bottom: 5px solid #aa6666;
+  border-bottom: 5px solid #665d26;
 }
 
 footer {
-  border-top: 5px solid #aa6666;
+  border-top: 5px solid #646630;
 }
 
 footer p {

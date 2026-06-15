@@ -1,5 +1,10 @@
 html {
   background-color: rgb(98, 83, 143);
+    /* Syntax: scrollbar-color: [Thumb Color] [Track/Background Color]; */
+  scrollbar-color: #7c337e #53235f;
+  
+  /* Optional: Makes the scrollbar a bit sleeker */
+  scrollbar-width: thick; 
 }
 
 body {
