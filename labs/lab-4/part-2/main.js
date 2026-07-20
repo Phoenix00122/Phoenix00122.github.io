@@ -1,7 +1,7 @@
 /*
 Name: Jay Lauzon
 File: main.js
-Date: July 8, 2026
+Date: July 12, 2026
 Description: Lab 4 Part 2 Image Gallery logic for thumbnail generation and overlay toggle.
 */
 
