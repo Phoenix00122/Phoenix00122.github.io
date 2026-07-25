@@ -13,140 +13,128 @@
     File:         lab-4/part-5/index.html
     Developer:    Jay Lauzon
     Date Created: July 25, 2026
-    Description:  Lab 4 Part 5 inft 1206, Accessible HTML5 Form Layout
+    Description:  Lab 4 Part 5 INFT 1206, Accessible HTML5 Form Layout
     =========================================
     -->
   </head>
   <body>
-      <h1>We want your feedback!</h1>
+    <h1>We want your feedback!</h1>
 
-      <p>We're very excited that you visited the little house in the woods,
+    <p>
+      We're very excited that you visited the <a href="#">little house in the woods</a>,
       and we want to hear what you thought of it! Please fill in the below
       sections. You don't need to provide your name or contact details, but
-      if you do, we'll enter you into a prize draw where you'll have a chance
-      to win prizes.</p>
+      if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
+      to win prizes.
+    </p>
 
-      <form action="#" method="post">
+    <img
+      src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg"
+      alt="Woodland strip" />
+    <form action="#" method="post">
 
       <!-- Section 1: Facilities -->
-      <section class="form-selection">
-      <h2>Facilities</h2>
-      
-      <fieldset>
-        <legend>Was the porridge</legend>
-        <div class="separator">
+      <section class="form-section">
+        <h2>Facilities</h2>
+        
+        <fieldset>
+          <legend>Was the porridge</legend>
           <input type="radio" id="porridge-hot" name="porridge" value="hot" checked />
           <label for="porridge-hot">Too hot?</label>
-        </div>
-        <div class="separator">
+
           <input type="radio" id="porridge-cold" name="porridge" value="cold" />
           <label for="porridge-cold">Too cold?</label>
-        </div>
-        <div class="separator">
+
           <input type="radio" id="porridge-just-right" name="porridge" value="right" />
           <label for="porridge-just-right">Just right?</label>
-        </div>
-      </fieldset>
+        </fieldset>
 
-      <fieldset>
-        <legend>Were the beds</legend>
-        <div class="separator">
+        <fieldset>
+          <legend>Were the beds</legend>
           <input type="radio" id="beds-hard" name="beds" value="hard" checked />
           <label for="beds-hard">Too hard?</label>
-        </div>
-        <div class="separator"> 
+
           <input type="radio" id="beds-soft" name="beds" value="soft" />
           <label for="beds-soft">Too soft?</label>
-        </div>
-        <div class="separator">
+
           <input type="radio" id="beds-just-right" name="beds" value="right" />
           <label for="beds-just-right">Just right?</label>
-        </div>
-      </fieldset>
+        </fieldset>
 
-      <fieldset>
-        <legend></legend>Describe the chairs (select all you agree with)</legend>
-        <div class="separator">
+        <fieldset>
+          <legend>Describe the chairs (select all you agree with)</legend>
           <input type="checkbox" id="chairs-comfy" name="chairs" value="comfy" />
           <label for="chairs-comfy">Comfy</label>
-        </div>
-        <div class="separator">
+
           <input type="checkbox" id="chairs-luxurious" name="chairs" value="luxurious" />
           <label for="chairs-luxurious">Luxurious</label>
-        </div>
-        <div class="separator">
+
           <input type="checkbox" id="chairs-hi-tech" name="chairs" value="hi-tech" />
           <label for="chairs-hi-tech">Hi-tech</label>
-        </div>
-        <div class="separator">
+
           <input type="checkbox" id="chairs-pretty" name="chairs" value="pretty" />
           <label for="chairs-pretty">Pretty</label>
-        </div>
-        <div class="separator">
+
           <input type="checkbox" id="chairs-majestic" name="chairs" value="majestic" />
           <label for="chairs-majestic">Majestic</label>
-        </div>
-      </fieldset>
+        </fieldset>
       </section>
 
-    <!-- Section 2: About Your Hosts -->
-    <section class="form-selection">
-    <h2>About your hosts</h2>
+      <!-- Section 2: About Your Hosts -->
+      <section class="form-section">
+        <h2>About your hosts</h2>
 
-    <div class="separator">
-      <label for="fav-bear">Who's your favorite bear?</label>
-      <select id="fav-bear" name="fav-bear">
-        <option value="papa">Papa bear</option>
-        <option value="mama">Mama bear</option>
-        <option value="junior">Junior</option>
-        <option value="dozer">Dozer</option>
-      </select>
-    </div>
+        <div class="separator">
+          <label for="fav-bear">Who's your favorite bear?</label>
+          <select id="fav-bear" name="fav-bear">
+            <option value="papa">Papa bear</option>
+            <option value="mama">Mama bear</option>
+            <option value="junior">Junior</option>
+            <option value="dozer">Dozer</option>
+          </select>
+        </div>
 
-    <div class="separator">
-      <label for="greeting">Which greeting did you prefer?</label>
-      <select id="greeting" name="greeting">
-        <option value="wave">Wave</option>
-        <option value="friendly">Friendly greeting</option>
-        <option value="growl">Growl</option>
-        <option value="claw">Claw marks in the door</option>
-      </select>
-    </div>
+        <div class="separator">
+          <label for="greeting">Which greeting did you prefer?</label>
+          <select id="greeting" name="greeting">
+            <option value="wave">Wave</option>
+            <option value="friendly">Friendly greeting</option>
+            <option value="growl">Growl</option>
+            <option value="claw">Claw marks in the door</option>
+          </select>
+        </div>
+      </section>
 
-    <!-- Section 3: Any other feedback -->
-    <section class="form-selection">
-      <h2>Any other feedback?</h2>
-      <div class="separator">
-        <label for="other-feedback">Give us your comments</label>
-        <textarea id="other-feedback" name="other-feedback" rows="5" cols="30"></textarea>
-      </div>
-    </section>
+      <!-- Section 3: Any other feedback -->
+      <section class="form-section">
+        <h2>Any other feedback?</h2>
+        <div>
+          <label for="other-feedback">Give us your comments</label>
+          <textarea id="other-feedback" name="other-feedback" rows="5" cols="30"></textarea>
+        </div>
+      </section>
 
-    <!-- Section 4: Your details -->
-    <section class="form-selection">
-    <h2>Your details</h2>
+      <!-- Section 4: Your details -->
+      <section class="form-section">
+        <h2>Your details</h2>
 
-    <div class="separator">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" />
-    </div>
-    <div class="separator">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
-    </div>
-    <div class="separator">
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" />
-    </div>
-    <div class="separator">
+        <div class="separator">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="separator">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="separator">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+      </section>
+
+      <!-- Submit Button -->
       <button type="submit">Submit</button>
-    </div>
-    </section>
 
-    <!-- 5. Submit button -->
-    <div class="separator">
-      <button type="submit">Submit</button>
-    </div>
-  </form>
+    </form>
   </body>
 </html>
