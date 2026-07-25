@@ -1,8 +1,8 @@
 /*
 Name: Jay Lauzon
 File: style.css
-Date: July 20, 2026
-Description: Stylesheet for Part 3 full-screen canvas layout.
+Date: July 25, 2026
+Description: Stylesheet for Part 4 full-screen canvas layout.
 */
 
 html, body {
@@ -27,6 +27,15 @@ h1 {
   margin: 0;
   top: 10px;
   right: 10px;
-  color: #fff;
+  color: #bd8a3d;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.9);
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 50px;
+  right: 40px;
+  color: #578094;
+  font-size: 1.2rem;
 }
