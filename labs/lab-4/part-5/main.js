@@ -3,7 +3,7 @@
 DEVELOPER IDENTITY COMMENT BLOCK
 =========================================
 Project:      Lab 4 - Part 5 Forms Challenge
-File:         lab-4/part-5/index.js
+File:         lab-4/part-5/main.js
 Developer:    Jay Lauzon
 Date Created: July 25, 2026
 Description:  Client-side form validation & submission handler
