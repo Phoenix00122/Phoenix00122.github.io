@@ -30,7 +30,7 @@ h2 {
 h1,
 h2 {
   margin: 0 0 20px;
-  color: purple;
+  color: rgb(21, 166, 64);
 }
 
 * {
@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-  color: gray;
+  color: rgb(96, 93, 93);
   margin: 0.5em 0;
 }
 
