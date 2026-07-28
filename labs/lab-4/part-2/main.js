@@ -35,7 +35,7 @@ for (const image of images) {
         displayedImage.src = e.target.src;
         displayedImage.alt = e.target.alt;
     });
-} // <--- THIS BRACKET WAS MISSING! Closing the for...of loop here.
+}
 
 // Wiring up the Darken/Lighten button
 btn.addEventListener("click", () => {
