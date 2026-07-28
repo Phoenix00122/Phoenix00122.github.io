@@ -1,3 +1,10 @@
+/*
+Name: Jay Lauzon
+File: main.js
+Date: July 20, 2026
+Description: Lab 4 Part 3 Image Gallery logic for Object building Practice.
+*/
+
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 

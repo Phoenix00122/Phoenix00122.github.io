@@ -1,3 +1,11 @@
+/*
+Name: Jay Lauzon
+File: main.js
+Date: July 8, 2026
+Description: Lab 4 Part 1 Silly Story Generator logic for random story generation.
+*/
+
+
 // Complete variable definitions and random functions
 
 const customName = document.getElementById("custom-name");
