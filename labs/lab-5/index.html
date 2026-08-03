@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+        <!-- 
+    =========================================
+    DEVELOPER IDENTITY COMMENT BLOCK
+    =========================================
+    Project:      Lab 5 - Accessibility Assessment
+    File:         lab-5/index.html
+    Developer:    Jay Lauzon
+    Date Created: August 2, 2026
+    Description:  Lab 5 Accessibility Assessment in INFT 1206
+    =========================================
+    -->
 
     <title>Accessibility assessment</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
@@ -14,11 +26,11 @@
   </head>
 
   <body>
-    <div class="header">
-      <font size="7">Welcome to our wildlife website</font>
-    </div>
+    <header>
+      <h1>Welcome to our wildlife website</h1>
+    </header>
 
-    <div class="nav">
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
@@ -27,10 +39,11 @@
       </ul>
 
       <form class="search">
-        <input type="search" name="q" placeholder="Search query">
+        <label for="search-input" class="visually-hidden">Search website query</label>
+        <input type="search" id="search-input" name="q" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
-    </div>
+    </nav>
 
     <main>
       <article>

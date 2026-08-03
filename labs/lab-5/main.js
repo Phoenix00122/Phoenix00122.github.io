@@ -1,3 +1,10 @@
+/*
+Name: Jay Lauzon
+File: main.js
+Date: August 2, 2026
+Description: Lab 5 Accessibility Assessment JavaScript functionality.
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
