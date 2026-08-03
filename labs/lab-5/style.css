@@ -157,10 +157,26 @@ article {
 
 .secondary {
   flex: 2;
+  background-color: #1b5e20;
+  color: #ffffff;
+}
+
+.secondary h2 {
+  color: #ffffff;
+}
+
+.secondary a {
+  color: #ffffff;
 }
 
 footer {
   margin-top: 10px;
+  background-color: #1b5e20;
+  color: #ffffff;
+}
+
+footer p {
+  color: #ffffff;
 }
 
 /* Table styling */
@@ -169,33 +185,52 @@ table {
   width: 100%;
   background-color: #dde;
   border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+caption {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 0.5rem;
 }
 
 th, td {
   padding: 10px;
+  border: 1px solid #2a2a2a;
 }
 
 td {
   text-align: center;
 }
 
-th[scope="col"] {
-  border-bottom: 1px solid black;
+th[scope="col"], th[scope="row"] {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  text-align: center;
 }
 
 tbody tr:nth-child(odd) {
   background-color: #def;
 }
 
-/* styling content images and audio */
+/* styling content images, audio, and transcript */
 
 img, audio {
   display: block;
-  margin: 0 auto;
+  margin: 1.5rem auto;
+  max-width: 100%;
 }
 
 audio {
   width: 500px;
+}
+
+.transcript {
+  background-color: #f4f4f4;
+  padding: 1rem 2rem;
+  border-left: 4px solid #1b5e20;
+  margin: 1.5rem 0;
 }
 
 /* Comments styling */
