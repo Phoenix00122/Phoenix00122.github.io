@@ -240,18 +240,6 @@ audio {
   padding: 10px;
 }
 
-.show-hide {
-  cursor: pointer;
-}
-
-.comments font[size="6"] {
-  font-size: 2rem;
-}
-
-.comments font[size="6"]:nth-of-type(2) {
-  margin-bottom: 0;
-}
-
 .comment-form {
   margin-bottom: 3rem;
 }
@@ -272,26 +260,39 @@ audio {
   flex: 6;
 }
 
-.show-hide {
-  text-align: center;
+/* Native Button styling for keyboard accessibility */
+button.show-hide {
+  display: block;
+  margin: 10px auto;
   width: 150px;
+  font-size: 1.6rem;
+  line-height: 28px;
+  background: #333;
+  border: 0;
+  color: white;
+  cursor: pointer;
 }
 
-.comment-form input, .comment-form label, .show-hide {
+button.show-hide:focus, button.show-hide:hover {
+  background: #555;
+  outline: 2px solid #000;
+}
+
+.comment-form input, .comment-form label {
   font-size: 1.6rem;
   line-height: 32px;
 }
 
-.comment-form input[type="submit"], .show-hide {
+.comment-form input[type="submit"] {
   background: #333;
   border: 0;
   color: white;
-}
-
-.comment-form input[type="submit"] {
+  font-size: 1.6rem;
+  line-height: 32px;
   width: 30%;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .comment-container {
