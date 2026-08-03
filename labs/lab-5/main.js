@@ -7,12 +7,14 @@ Description: Lab 5 Accessibility Assessment JavaScript functionality.
 
 // functionality for showing/hiding the comments section
 
+
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
 
 showHideBtn.onclick = function() {
+
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
     showHideBtn.textContent = 'Hide comments';
@@ -36,6 +38,7 @@ form.onsubmit = function(e) {
 };
 
 function submitComment() {
+
   const listItem = document.createElement('li');
   const namePara = document.createElement('p');
   const commentPara = document.createElement('p');
