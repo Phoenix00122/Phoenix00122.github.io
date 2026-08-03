@@ -71,6 +71,80 @@ p, li, table {
   border: 0;
 }
 
+/* || header layout */
+
+header {
+  background-color: #1b5e20;
+}
+
+article, footer, .secondary {
+  padding: 10px 30px;
+}
+
+article {
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+nav {
+  height: 50px;
+  background-color: #1b5e20; /* Fixed high contrast background */
+  display: flex;
+  padding: 1% 0;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff; /* Contrast fix for white-on-dark text */
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: underline;
+}
+
+nav .search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+
+.search input {
+  font-size: 1.6rem;
+  height: 32px;
+}
+
+.search input[type="search"] {
+  flex: 3;
+}
+
+.search input[type="submit"] {
+  flex: 1;
+  margin-left: 1rem;
+  background: #333;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+}
+
 /* || main layout */
 
 main {
