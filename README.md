@@ -14,3 +14,4 @@
 - [Lab 4 Part 3](labs/lab-4/part-3)
 - [Lab 4 Part 4](labs/lab-4/part-4)
 - [Lab 4 Part 5](labs/lab-4/part-5)
+- [Lab 5 Part 5](labs/lab-5/)
