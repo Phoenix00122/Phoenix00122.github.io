@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- 
     =========================================
     DEVELOPER IDENTITY COMMENT BLOCK
@@ -26,11 +27,13 @@
   </head>
 
   <body>
+    <a href="#main" class="visually-hidden focusable">Skip to main content</a>
+
     <header>
       <h1>Welcome to our wildlife website</h1>
     </header>
 
-    <nav>
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
@@ -45,7 +48,7 @@
       </form>
     </nav>
 
-<main>
+<main id="main">
       <article>
         <h2>The trouble with Bears</h2>
         <p>By Evan Wild</p>
@@ -124,9 +127,9 @@
         </aside>
 
         <section class="comments">
-          <button class="show-hide">Show comments</button>
+          <button class="show-hide" aria-expanded="false" aria-controls="comment-section">Show comments</button>
 
-          <div class="comment-wrapper">
+          <div class="comment-wrapper" id="comment-section">
             <h3>Add comment</h3>
 
             <form class="comment-form">
@@ -136,7 +139,7 @@
               </div>
               <div class="flex-pair">
                 <label for="comment">Your comment:</label>
-                <input type="text" name="comment" id="comment" placeholder="Enter your comment">
+                <textarea name="comment" id="comment" rows="4" placeholder="Enter your comment"></textarea>
               </div>
               <div>
                 <input type="submit" value="Submit comment">
